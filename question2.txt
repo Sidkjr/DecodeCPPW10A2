@@ -1,0 +1,10 @@
+You have a sorted array of infinite numbers, how would you search an element in the array?
+
+Ans: 
+
+    Since we cannot keep the high value as (n-1), i.e 'n' representing the size of the array since we have an infinite array. 
+    The way we can approach to solve this problem is that we can consider the first element as the high as well the low to 
+    perform binary search.
+
+    Now the case being that we keep on expanding our search scope until the target value is found, to achieve faster search we
+    can double or triple the search scope everytime the calculated mid value is less than the target.
